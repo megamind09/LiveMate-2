@@ -12,7 +12,7 @@ import com.google.firebase.cloud.FirestoreClient;
 public class InitializeFirebase {
     public static Firestore db;
 
-    public void setUpFirebase(){
+    public void setUpFirebase(){ 
         try{
         FileInputStream serviceAccount = new FileInputStream("src/main/resources/livemate-8bfba-firebase-adminsdk-fbsvc-f5793ad242.json");
 
